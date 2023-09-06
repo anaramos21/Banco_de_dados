@@ -1,0 +1,100 @@
+
+INSERT INTO professor VALUES
+(1,'Ana Paula','Bento Gonçalves,330','Porto Alegre'),
+(2,'Brenda','Alberto Bins,330','Porto Alegre'),
+(3,'Sandro','Vila Madalena,330','Porto Alegre'),
+(4,'Letícia','Recife,330','Porto Alegre'),
+(5,'Carolina','Veranópolis,330','Porto Alegre'),
+(6,'Marcelo','Assis Brasil,330','Porto Alegre'),
+(7,'Gabriel','Sertório,330','Porto Alegre'),
+(8,'Gabriel Gulles','Monte Carmo,330','Porto Alegre'),
+(9,'Wiilian','Monteserrat,330','Porto Alegre'),
+(10,'Bárbara','Pernambuco,330','Porto Alegre'),
+(11,'Bruno','Vila César,330','Porto Alegre'),
+(12,'Adalberto','Bento Gonçalves,330','Cachoerinha'),
+(13,'Joanito','Maria Madalena,330','Novo Hamburgo'),
+(14,'Marcio','Lindolfo Collor,330','Porto Alegre');
+
+SELECT * FROM professor;
+
+INSERT INTO aluno VALUES
+(1,'A','Bento Gonçalves,330','Porto Alegre'),
+(2,'B','Alberto Bins,330','Porto Alegre'),
+(3,'C','Vila Madalena,330','Porto Alegre'),
+(4,'D','Recife,330','Porto Alegre'),
+(5,'E','Veranópolis,330','Porto Alegre'),
+(6,'F','Assis Brasil,330','Porto Alegre'),
+(7,'G','Sertório,330','Porto Alegre'),
+(8,'H','Monte Carmo,330','Porto Alegre'),
+(9,'I','Monteserrat,330','Porto Alegre'),
+(10,'J','Pernambuco,330','Porto Alegre');
+
+SELECT * FROM aluno;
+
+
+INSERT INTO disciplina VALUES
+(1,'Matemática','Técnico em Sistemas para Internet',5),
+(2,'Português','Técnico em Sistemas para Internet',5),
+(3,'Inglês','Técnico em Sistemas para Internet',1),
+(4,'Química','Técnico em Sistemas para Internet',1),
+(5,'Física','Técnico em Sistemas para Internet',1),
+(6,'Educação Física','Técnico em Sistemas para Internet',1),
+(7,'Biologia','Técnico em Sistemas para Internet',1),
+(8,'PP','Técnico em Sistemas para Internet',3),
+(9,'História','Técnico em Sistemas para Internet',1),
+(10,'Geografia','Técnico em Sistemas para Internet',1),
+(11,'PV','Técnico em Sistemas para Internet',2),
+(12,'Técnico','Técnico em Sistemas para Internet',5),
+(13,'Artes','Técnico em Sistemas para Internet',5);
+
+SELECT * FROM disciplina;
+
+
+INSERT INTO matricula VALUES
+(1,1,'Segundo Ano'),
+(1,2,'Segundo Ano'),
+(1,3,'Segundo Ano'),
+(1,4,'Segundo Ano'),
+(1,5,'Segundo Ano'),
+(1,6,'Segundo Ano'),
+(1,7,'Segundo Ano'),
+(1,8,'Segundo Ano'),
+(1,9,'Segundo Ano'),
+(1,10,'Segundo Ano'),
+(1,11,'Segundo Ano'),
+(1,12,'Segundo Ano'),
+(1,13,'Segundo Ano'),
+(2,1,'Terceiro Ano'),
+(2,2,'Terceiro Ano'),
+(2,3,'Terceiro Ano'),
+(2,4,'Terceiro Ano'),
+(2,5,'Terceiro Ano'),
+(2,6,'Terceiro Ano'),
+(2,7,'Terceiro Ano'),
+(2,8,'Terceiro Ano'),
+(2,9,'Terceiro Ano'),
+(2,10,'Terceiro Ano'),
+(2,11,'Terceiro Ano'),
+(2,12,'Terceiro Ano'),
+(2,13,'Terceiro Ano'),
+(3,12,'Segundo Ano'),
+(3,13,'Segundo Ano');
+
+SELECT * FROM matricula;
+
+
+INSERT INTO professor_disciplina VALUES
+(12,1,'Primeiro Ano'),
+(12,1,'Segundo Ano'),
+(12,1,'Terceiro Ano'),
+(3,14,'Primeiro Ano'),
+(3,13,'Segundo Ano'),
+(3,13,'Terceiro Ano'),
+(3,5,'Primeiro Ano'),
+(3,5,'Segundo Ano'),
+(3,5,'Terceiro Ano');
+
+SELECT * FROM professor_disciplina;
+
+
+
